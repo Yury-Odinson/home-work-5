@@ -8,10 +8,8 @@
 /* навигация header */
 .header-nav {
     display: flex;
-    order: -1;
     margin: 0 120px;
     height: 90px;
-    font-family: 'Poppins', sans-serif;
     justify-content: flex-end;
 }
 
@@ -32,7 +30,6 @@
 
 .header-nav-list__item,
 .header-nav-list__item__last {
-    display: flex;
     margin-right: 10px;
     padding: 5px 10px;
     text-align: center;
@@ -44,3 +41,49 @@
     border-radius: 5px ;
     color: white;
 }
+
+
+/* section 1 */
+.section-1 {
+    
+    /* следующие 2 свойства для быстрого просмотра блока */
+/* 
+    background-color:aliceblue;
+    border: 1px solid black;
+ */
+
+    display: flex;
+    justify-content: space-around;
+    margin: 100px auto;
+    max-width: 1200px;
+    height: 450px;
+    font-size: 2rem;
+
+}
+
+.section-1-content {
+
+    /* следующее свойство для быстрого просмотра блока */
+    /* background-color: aqua; */
+
+    width: 420px;
+    height: 350px;
+    margin: 2.5em;
+    font-size: 2rem;
+}
+
+.section-1-content-list {
+    display: flex;
+}
+
+.section-1-content-list__item {
+    margin: 5px;
+    padding: 5px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px ;
+}
+
+
+
+
