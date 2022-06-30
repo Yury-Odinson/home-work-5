@@ -43,7 +43,7 @@
 }
 
 
-/* section 1 */
+/* секция 1 на белом фоне */
 .section-1 {
     
     /* следующие 2 свойства для быстрого просмотра блока */
@@ -86,4 +86,98 @@
 
 
 
+/* секция 2 на чёрном фоне с шестью флекс-блоками */
+.section-2 {
+    position: absolute;
+    margin: -5px auto;
+    width: 100%;
+    height: 1400px;
+    background-color: black;
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+}
 
+.section-2-header {
+    margin: 100px auto 0;
+    width: 600px;
+    height: 110px;
+}
+
+.section-2-header-title {
+    /* задаём отступ между буквами */
+    letter-spacing: 0.5em;
+}
+
+.section-2-content {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    height: 1000px;
+}
+
+.section-2-content-item {
+
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+    width: 380px;
+    height: 490px;
+}
+
+.section-2-content-item-img__logo {
+    position: absolute;
+    margin: 260px -140px;
+}
+
+.section-2-content-item-footer {
+    position: absolute;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: -255px;
+    width: 380px;
+    height: 200px;
+    font-size: 1.8rem;
+}
+
+.section-2-content-item-footer__title-1 {
+    margin: 50px auto;
+    color: #0278ED;
+}
+
+.section-2-content-item-footer__title-2 {
+    margin: 50px auto;
+    color: #FF5437;
+}
+
+.section-2-content-item-footer__title-3 {
+    margin: 50px auto;
+    color: #FF9209;
+}
+
+.section-2-content-item-footer__title-4 {
+    margin: 50px auto;
+    color: #E738CE;
+}
+
+.section-2-content-item-footer__title-5 {
+    margin: 50px auto;
+    color: #00C6DF;
+}
+
+.section-2-content-item-footer__title-6 {
+    margin: 50px auto;
+    color: #B25DF8;
+}
+
+.section-2-content-item-footer__text {
+    margin: -50px 20px;
+    color: black;
+}
+
+.section-2-content-item-img {
+    margin: 45px auto;
+
+}
