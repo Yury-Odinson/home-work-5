@@ -43,6 +43,7 @@
 }
 
 
+
 /* секция 1 на белом фоне */
 .section-1 {
     
@@ -208,4 +209,21 @@
 
 .section-3-content__text {
     font-size: 1.5rem;
+}
+
+
+
+/* секция 4 на белом фоне */
+.section-4 {
+    display: flex;
+    margin: 100px auto;
+    justify-content: space-around;
+    max-width: 1200px;
+    height: 450px;
+    font-size: 1.9rem;
+}
+
+.section-4-content {
+    margin: 3%;
+    max-width: 420px;
 }
