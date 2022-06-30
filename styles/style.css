@@ -227,3 +227,23 @@
     margin: 3%;
     max-width: 420px;
 }
+
+
+
+/* секция 5 на сером фоне */
+.section-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 105px;
+    width: 100%;
+    height: 650px;
+    background-color: #F2F2F2;
+    font-size: 1.9rem;
+}
+
+.section-5-content {
+    margin-top: 40px;
+    max-width: 420px;
+    height: 380px;
+}
