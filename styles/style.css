@@ -284,30 +284,11 @@ font-size: 1.8rem;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* секция 4 на белом фоне */
 .section-4 {
-    display: flex;
+    position: relative;
     margin: 100px auto;
+    display: flex;
     justify-content: space-around;
     max-width: 1200px;
     height: 450px;
@@ -318,6 +299,111 @@ font-size: 1.8rem;
     margin: 3%;
     max-width: 420px;
 }
+
+
+.section-4-content-phone {
+    position: relative;
+    top: 40px;
+    right: 300px;
+}
+.section-4-content-phone-img {
+    position: absolute;
+    top: 25px;
+    left: 28px;
+
+}
+.section-4-content-phone-border {
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
