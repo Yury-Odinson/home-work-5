@@ -290,7 +290,7 @@ font-size: 1.8rem;
     margin: 100px auto;
     display: flex;
     justify-content: space-around;
-    max-width: 1200px;
+    max-width: 1400px;
     height: 450px;
     font-size: 1.9rem;
 }
@@ -298,132 +298,90 @@ font-size: 1.8rem;
 .section-4-content {
     margin: 3%;
     max-width: 420px;
+    
 }
-
 
 .section-4-content-phone {
     position: relative;
     top: 40px;
     right: 300px;
 }
+
 .section-4-content-phone-img {
     position: absolute;
     top: 25px;
     left: 28px;
-
 }
+
 .section-4-content-phone-border {
     position: absolute;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* секция 5 на сером фоне */
 .section-5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 105px;
-    width: 100%;
-    height: 650px;
+    position: relative;
     background-color: #F2F2F2;
-    font-size: 1.9rem;
 }
 
 .section-5-content {
+    margin: auto;
+    padding: 170px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 105px;
+    max-width: 1400px;
+    height: 650px;
+    font-size: 1.9rem;
+}
+
+
+.section-5-content-phone {
+    position: relative;
+}
+
+.section-5-content-phone-img {
+    position: absolute;
+    top: 24px;
+    left: 28px;
+}
+.section-5-content-phone-border {
+    position: absolute;
+}
+
+.section-5-content-txt {
     margin-top: 40px;
     max-width: 420px;
     height: 380px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
