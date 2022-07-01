@@ -1,45 +1,77 @@
 .header {
     max-width: 100%;
-    height: 90px;
+    min-height: 90px;
     font-size: 18px;
     box-shadow: 0 3px 10px rgb(209, 209, 209);
 }
 
 /* навигация header */
 .header-nav {
-    display: flex;
+    position: relative;
     margin: 0 120px;
-    height: 90px;
-    justify-content: flex-end;
+    min-height: 90px;
+        /* border: 2px solid black; */
 }
 
-.header-nav__img {
-    /* сомнительное позиционирование. если делать margin, например, в 50%, то отсчёт идёт не по родительскому эллементу, а по всему экрану */
-    margin: auto;
-    /* возможно, не самое лучшее решение делать margin-let после margin */
-    margin-left: 32px;
+.header-nav-logo {
+    position: absolute;
+    left: 0;
+    min-width: 200px;
+    min-height: 90px;
+
+        /* border-right: 2px solid black; */
+}
+
+.header-nav-img {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+}
+
+.header-nav-img__txt {
+    position: absolute;
+    top: 50%;
+    left: 41px;
+    transform: translateY(-50%);
+    color: white;
+    font-family: 'Poppins Medium', Poppins, monospace;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.header-nav-txt {
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    transform: translateY(-50%);
+    font-weight: 900;
 }
 
 /* Список кнопок навигации */
 .header-nav-list {
+        /* border: 2px solid red; */
     display: flex;
-    justify-content: space-between;
-    margin: auto 0;
-    margin-right: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    justify-content: right;
+
 }
 
-.header-nav-list__item,
-.header-nav-list__item__last {
-    margin-right: 10px;
-    padding: 5px 10px;
-    text-align: center;
+.header-nav-list-item,
+.header-nav-list-item__last {
+    display: inline;
+    margin: 20px;
+    padding: 10px 20px;
+        /* border: 1px solid black; */
+    white-space: nowrap;
 }
 
-.header-nav-list__item__last {
-    padding: 5px 30px;
+.header-nav-list-item__last {
     background-color: black;
-    border-radius: 5px ;
     color: white;
+    border-radius: 5px;
 }
 
 
