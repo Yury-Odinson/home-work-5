@@ -626,9 +626,9 @@ font-size: 1.8rem;
 
 /* 9-я секция на белом фоне DOWNLOAD  */
 .section-9 {
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .section-9-header {
@@ -643,7 +643,7 @@ font-size: 1.8rem;
 }
 
 .section-9-content-button {
-    margin: 50px auto;
+    margin: 50px auto 100px;
     display: flex;
     justify-content: space-between;
     width: 180px;
@@ -657,3 +657,41 @@ font-size: 1.8rem;
     margin: auto;
     font-size: 1.5rem;
 }
+
+
+
+/* 10-я секция на сером фоне FU... o-ops.. FAQ */
+
+
+.section-10 {
+    position: relative;
+    display: flex;
+    background-color: #E5E5E5;
+    width: 100%;
+    /* height: 600px; */
+}
+
+.section-10-content {
+    margin: 50px auto;
+    max-width: 1200px;
+    height: 100px;
+    font-size: 2rem;
+}
+
+.section-10-content-header {
+    margin: 10px 0;
+}
+
+.section-10-content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-10-content-box__item {
+    margin: 20px 0;
+    width: 570px;
+}
+
+
+
