@@ -375,19 +375,21 @@ font-size: 1.8rem;
     position: relative;
     background-color: black;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     padding-top: 100px;
     color: white;
+    
 }
 
 .section-6-content {
     position: relative;
-    background-color: black;
-    border: 2px solid wheat;
+    /* background-color: black; */
     width: 600px;
     margin: auto;
     text-align: center;
     font-size: 1.9rem;
+    font-weight: 300;
+    
 }
 
 .section-6-content-phone-back{
@@ -421,19 +423,39 @@ font-size: 1.8rem;
 
 
 .section-6-content-footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     position: absolute;
-    margin: 450px 50%;
-    transform: translateX(-50%);
-        background-color: #00C6DF;
-    width: 100px;
-    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 450px auto 0;
+    padding: 0 150px;
+    width: 600px;
+    height: 100px;
+    background-color: black;
+
 
 }
+
+.section-6-content-footer__image {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    margin: 20px auto 0;
+    width: 300px;
+
+}
+
+
 .section-6-content-footer__title {
-    color: white
+        /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+        /* border: 2px solid black; */
+    margin: -10px auto;
+    width: 300px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.2em;
 }
 
 
