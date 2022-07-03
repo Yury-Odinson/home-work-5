@@ -59,6 +59,7 @@
     margin: -10px 20px;
     white-space: nowrap;
     background-color: white;
+    font-size: 1.7rem;
 }
 
 .header-nav-list-item__last {
@@ -427,7 +428,7 @@
     background-color: #222222;
 }
 
-.section-6-content-footer__image {
+.section-6-content-footer-image {
     display: flex;
     justify-content: space-around;
     /* border: 2px solid black; */
@@ -435,7 +436,7 @@
     width: 300px;
 }
 
-.section-6-content-footer__title {
+.section-6-content-footer-title {
         /* border: 2px solid black; */
     display: flex;
     justify-content: space-around;
