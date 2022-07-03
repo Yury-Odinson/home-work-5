@@ -24,3 +24,12 @@ button {
     border: none;
     /* outline: none; */
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.a-item {
+    margin-top: 30px;
+}

@@ -1,4 +1,4 @@
-.header {
+#header {
     max-width: 100%;
     min-height: 90px;
     font-size: 18px;
@@ -10,7 +10,6 @@
     position: relative;
     margin: 0 120px;
     min-height: 90px;
-        /* border: 2px solid black; */
 }
 
 .header-nav-logo {
@@ -18,8 +17,6 @@
     left: 0;
     min-width: 200px;
     min-height: 90px;
-
-        /* border-right: 2px solid black; */
 }
 
 .header-nav-img {
@@ -36,7 +33,7 @@
     transform: translateY(-50%);
     color: white;
     font-family: 'Poppins Medium', Poppins, monospace;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 14px;
 }
 
@@ -45,7 +42,7 @@
     top: 50%;
     left: 70px;
     transform: translateY(-50%);
-    font-weight: 900;
+    font-weight: 600;
 }
 
 /* Список кнопок навигации */
@@ -77,7 +74,7 @@
 
 
 /* секция 1 на белом фоне */
-.section-1 {
+#section-1 {
     /* следующие 2 свойства для быстрого просмотра блока */
 
     /* background-color:aliceblue;
@@ -144,7 +141,7 @@ position: relative;
 
 
 /* секция 2 на чёрном фоне с шестью флекс-блоками */
-.section-2 {
+#section-2 {
     position: relative;
     z-index: 3;
     margin: -5px auto;
@@ -164,6 +161,7 @@ position: relative;
 .section-2-header-title {
     /* задаём отступ между буквами */
     letter-spacing: 0.5em;
+    display: inline-block;
 }
 
 .section-2-content {
@@ -265,7 +263,7 @@ font-size: 1.8rem;
 
 
 /* 3-я секция на красном фоне */
-.section-3 {
+#section-3 {
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -289,7 +287,7 @@ font-size: 1.8rem;
 
 
 /* секция 4 на белом фоне */
-.section-4 {
+#section-4 {
     position: relative;
     margin: 100px auto;
     display: flex;
@@ -328,7 +326,7 @@ font-size: 1.8rem;
 
 
 /* секция 5 на сером фоне */
-.section-5 {
+#section-5 {
     position: relative;
     background-color: #F2F2F2;
 }
@@ -349,6 +347,7 @@ font-size: 1.8rem;
 
 .section-5-content-phone {
     position: relative;
+    top: 40px;
 }
 
 .section-5-content-phone-img {
@@ -373,7 +372,7 @@ font-size: 1.8rem;
 
 
 /* секция 6 на чёрном фоне */
-.section-6 {
+#section-6 {
     position: relative;
     background-color: #222222;
     width: 100%;
@@ -462,7 +461,7 @@ font-size: 1.8rem;
 
 
 /* 7-я секция на белом фоне с ценниками */
-.section-7 {
+#section-7 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -567,7 +566,7 @@ font-size: 1.8rem;
 
 
 /* 8-я секция на сером фоне с отзывами */
-.section-8 {
+#section-8 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -625,7 +624,7 @@ font-size: 1.8rem;
 
 
 /* 9-я секция на белом фоне DOWNLOAD  */
-.section-9 {
+#section-9 {
     position: relative;
     width: 100%;
     /* height: 400px; */
@@ -661,7 +660,7 @@ font-size: 1.8rem;
 
 
 /* 10-я секция на сером фоне FU... o-ops.. FAQ */
-.section-10 {
+#section-10 {
     position: relative;
     display: flex;
     background-color: #E5E5E5;
@@ -695,7 +694,7 @@ font-size: 1.8rem;
 
 
 /* подвал сайта */
-.footer {
+#footer {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -732,4 +731,18 @@ font-size: 1.8rem;
     margin: 20px auto 120px;
     font-size: 2rem;
     font-weight: 300;
+}
+
+.to-top {
+    position: fixed;
+    z-index: 999;
+    bottom: 40px;
+    right: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 4rem;
+    font-weight: 700;
+    opacity: 0.3;
 }

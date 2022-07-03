@@ -12,23 +12,26 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+    <link rel="stylesheet" href="./styles/scroll.css">
 
     <title>FE-05</title>
 </head>
 <body>
-    <header class="header">
+    <header id="header">
         <div class="header-nav">
-            <div class="header-nav-logo">
+            <a href="./index.html"> <div class="header-nav-logo">
                 <img class="header-nav-img" src="./assets/image/header-logo.png" alt="header navigation logo" width="24" height="24">
                 <div class="header-nav-img__txt">(H)</div>
                 <div class="header-nav-txt">H(app)py</div>
-            </div>
+            </div></a>
+            
                 <ul class="header-nav-list">
-                    <li class="header-nav-list-item">Features</li>
-                    <li class="header-nav-list-item">Pricing</li>
-                    <li class="header-nav-list-item">Testimonials</li>
-                    <li class="header-nav-list-item">Instructions</li>
-                    <li class="header-nav-list-item__last">GET TEMPLATE</li>
+                    <a class="a-item" href="#section-2"><li class="header-nav-list-item">Features</li></a>
+                    <a class="a-item" href="#section-7"><li class="header-nav-list-item">Pricing</li></a>
+                    <a class="a-item" href="#section-8"><li class="header-nav-list-item">Testimonials</li></a>
+                    <a class="a-item" href="#section-10"><li class="header-nav-list-item">Instructions</li></a>
+                    <a class="a-item" href="#section-9"><li class="header-nav-list-item__last">GET TEMPLATE</li></a>
                 </ul>
         </div>
     </header>
@@ -36,7 +39,7 @@
 
 
     <!-- 1-я секция на белом фоне -->
-    <div class="section-1">
+    <div id="section-1">
 
         <div class="section-1-content">
             <img src="./assets/image/sec-1-logo.png" alt="logo" width="190" height="60">
@@ -58,7 +61,7 @@
 
 
 <!-- 2-я секция на чёрном фоне с шестью флекс-блоками -->
-    <div class="section-2">
+    <div id="section-2">
         <div class="section-2-header">
             <h3 class="section-2-header-title">FEATURES</h3>
             <h1>The latest & greatest in phone photography.</h1>
@@ -130,7 +133,7 @@
 
 
 <!-- 3-я секция на красном фоне -->
-    <div class="section-3">
+    <div id="section-3">
         <div class="section-3-content">
             <h1>400+</h1>
             <p class="section-3-content__text">PICTURES ANALYZED</p>
@@ -148,7 +151,7 @@
 
 
     <!-- 4-я секция на белом фоне -->
-    <div class="section-4">
+    <div id="section-4">
         <div class="section-4-content">
             <h5 class="section-4-content__title">TECHNOLOGY</h5>
             <h2 class="section-4-content__title">Use H(app)y to give your digital photos some pop.</h2>
@@ -163,7 +166,7 @@
 
 
     <!-- 5-я секция на сером фоне -->
-    <div class="section-5">
+    <div id="section-5">
         <div class="section-5-content">
             <div class="section-5-content-phone">
                 <img class="section-5-content-phone-img" src="./assets/image/sec-5-img.png" alt="phone" width="321" height="530">
@@ -180,7 +183,7 @@
 
 
     <!-- 6-я секция на чёрном фоне -->
-    <div class="section-6">
+    <div id="section-6">
         <div class="section-6-content">
             <h5>DARK MODE</h5>
             <h2 class="section-6-content__title">Also available in dark.</h2>
@@ -191,8 +194,8 @@
             <hr size="pixel" class="section-6-content-hover">
             <div class="section-6-content-footer">
                 <div class="section-6-content-footer__image">
-                    <img  src="./assets/image/sec-6-img-2.png" alt="light mode" width="24" height="24">
-                    <img  src="./assets/image/sec-6-img-3.png" alt="light mode" width="24" height="24">    
+                    <img src="./assets/image/sec-6-img-2.png" alt="light mode" width="24" height="24">
+                    <img src="./assets/image/sec-6-img-3.png" alt="light mode" width="24" height="24">    
                 </div>
                 <div class="section-6-content-footer__title">
                     <h5 class="section-6-content-footer__title">LIGHT MODE</h5>
@@ -205,7 +208,7 @@
 
 
     <!-- 7-я секция на белом фоне с ценниками -->
-    <div class="section-7">
+    <div id="section-7">
             <div class="section-7-header">
                 <h5>PRICING</h5>
                 <h2 class="section-7-header__title">A plan for every need.</h2>
@@ -240,7 +243,7 @@
 
 
     <!-- 8-я секция на сером фоне с отзывами -->
-    <div class="section-8">
+    <div id="section-8">
         <div class="section-8-header">
             <h5>TESTIMOTIONALS</h5>
             <h2 class="section-8-header-title">Don't take our world for it.</h2>
@@ -279,7 +282,7 @@
 
 
     <!-- 9-я секция на белом фоне DOWNLOAD -->
-    <div class="section-9">
+    <div id="section-9">
         <div class="section-9-header">
             <h5>DOWNLOAD</h5>
             <h2 class="section-9-header-title">It's available right now!</h2>
@@ -299,7 +302,7 @@
 
 
 <!-- 10-я секция на сером фоне FU... o-ops.. FAQ -->
-    <div class="section-10">
+    <div id="section-10">
         <div class="section-10-content">
             <div class="section-10-content-header">
                 <h2>FAQ</h2>
@@ -329,7 +332,7 @@
 
 
     <!-- подвал сайта -->
-    <footer class="footer">
+    <footer id="footer">
         <div class="footer-logo">
             <img src="./assets/image/footer-logo.png" alt="footer logo" width="76" height="76">
             <h3 class="footer-logo__txt">(H)</h3>
@@ -342,5 +345,12 @@
         </div>
             <p class="footer-txt__end">Powered by <b>Webflow</b>. All rights reserved by Happy Apps, Inc. <b>Licensing</b>.</p>
     </footer>
+
+
+
+    <!-- кнопка наверх -->
+    <a href="#header">   
+        <button class="to-top">UP</button>
+    </a>
 </body>
 </html>
