@@ -666,15 +666,12 @@ font-size: 1.8rem;
     display: flex;
     background-color: #E5E5E5;
     width: 100%;
-        /* !!! не корректно получилась область секции. секция контент отделяется !!! */
-    min-height: 550px;
 }
 
 .section-10-content {
-
+    position: relative;
     margin: 50px auto;
     max-width: 1200px;
-    height: 100px;
     font-size: 2rem;
 }
 
@@ -683,6 +680,8 @@ font-size: 1.8rem;
 }
 
 .section-10-content-box {
+    margin: auto;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -691,4 +690,46 @@ font-size: 1.8rem;
 .section-10-content-box__item {
     margin: 20px 0;
     width: 570px;
+}
+
+
+
+/* подвал сайта */
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    width: 100%;
+}
+
+.footer-logo {
+    margin: 100px auto 0;
+}
+
+.footer-logo__txt {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: -63px 10px 0;
+    color: white;
+}
+
+.footer-txt {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.footer-links {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+}
+
+.footer-txt__end {
+    margin: 20px auto 120px;
+    font-size: 2rem;
+    font-weight: 300;
 }
