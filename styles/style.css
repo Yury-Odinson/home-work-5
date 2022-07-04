@@ -34,7 +34,8 @@
     color: white;
     font-family: 'Poppins Medium', Poppins, monospace;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
+    text-align: center;
 }
 
 .header-nav-txt {
@@ -700,7 +701,7 @@
     font-size: 3.5rem;
     font-weight: 700;
     text-align: center;
-    margin: -70px 10px 0;
+    margin: -63px 10px 0;
     color: white;
 }
 
