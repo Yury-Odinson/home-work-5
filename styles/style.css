@@ -498,21 +498,19 @@
 .cards-item1__title,
 .cards-item2__title,
 .cards-item3__title {
-    margin-top:30px;
+    margin-top:20px;
     font-size: 2rem;
     font-weight: 400;
 }
 .cards-item1__price,
 .cards-item2__price,
 .cards-item3__price {
-    /* margin-top:10px; */
     font-weight: 500;
 }
 
 .cards-item1__time,
 .cards-item2__time,
 .cards-item3__time {
-    margin-top:30px;
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: 0.2em;
@@ -522,7 +520,6 @@
 .cards-item1__button,
 .cards-item2__button,
 .cards-item3__button {
-    margin-top:30px;
     padding: 10px 30px;
     color: white;
     font-weight: 100;
@@ -530,7 +527,6 @@
 
 .cards-item1 {
     color: #0278ED;
-
 }
 
 .cards-item2 {
@@ -700,9 +696,10 @@
     /* позиция relative с z-индексом нужна для того, чтоб при анимации вращения картинки надпись (Н) не скрывалась */
     position: relative;
     z-index: 1;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
-    margin: -63px 10px 0;
+    text-align: center;
+    margin: -70px 10px 0;
     color: white;
 }
 
