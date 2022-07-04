@@ -498,7 +498,7 @@
 .cards-item1__title,
 .cards-item2__title,
 .cards-item3__title {
-    margin-top:20px;
+    margin-top:40px;
     font-size: 2rem;
     font-weight: 400;
 }
@@ -506,6 +506,7 @@
 .cards-item2__price,
 .cards-item3__price {
     font-weight: 500;
+    margin-top: -20px;
 }
 
 .cards-item1__time,
