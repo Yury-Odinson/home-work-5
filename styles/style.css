@@ -630,6 +630,10 @@
 }
 
 .section-9-content-button {
+    border: 2px solid rgb(204, 204, 204);
+}
+
+.section-9-content-button {
     margin: 50px auto 100px;
     display: flex;
     justify-content: space-between;
