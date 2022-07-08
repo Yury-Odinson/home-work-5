@@ -3,7 +3,7 @@
     justify-content: space-between;
     padding: 0 10%;
     max-width: 100%;
-    font-size: 18px;
+    font-size: 1.8rem;
     box-shadow: 0 3px 10px rgb(209, 209, 209);
 }
 
@@ -42,62 +42,71 @@
 
 
 
+
 /* секция 1 на белом фоне */
-#section-1 {
+#happy {
+    display: flex;
+    padding: 70px 0;
+    font-size: 2rem;
+}
+
+.happy-content {
     position: relative;
     display: flex;
-    justify-content: space-around;
-    margin: 100px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
     max-width: 1200px;
-    height: 450px;
+    font-size: 2rem;
+    gap: 4rem;
+}
+
+.happy-txt {
+    max-width: 500px;
     font-size: 2rem;
 }
 
-.section-1-content {
-    position: relative;
-    width: 420px;
-    height: 350px;
-    margin: 2.5em;
-    font-size: 2rem;
+.happy-txt__text {
+    margin-top: 10px;
+    max-width: 300px;
 }
 
-.section-1-content__title {
-    font-size: 5rem;
-    font-weight: 400;
-    margin-bottom: 10px;
+.happy-txt__title {
+    font-size: 6rem;
+    line-height: 6.5rem;
+    font-weight: 600;
 }
 
-.section-1-content-phone {
-    position: relative;
-    top: 40px;
-    right: 300px;
-}
-
-/* следующее решение из трёх классов, по-моему, колхоз */
-.section-1-content-phone-border__back {
-    position: absolute;
-    z-index: 1;
-}
-.section-1-content-phone-img {
-    position: absolute;
-    z-index: 2;
-    top: 25px;
-    left: 25px;
-}
-.section-1-content-phone-border__main {
-    position: absolute;
-    z-index: 3;
-}
-.section-1-content-list {
-    display: flex;
-}
-
-.section-1-content-list__item {
-    margin: 5px;
+.happy-content__button {
+    margin: 20px 0;
+    margin-right: 20px;
     padding: 15px 30px;
     background-color: black;
     color: white;
     border-radius: 5px ;
+    letter-spacing: 0.3rem;
+}
+
+.happy-phone {
+    position: relative;
+    /* подгоняем рамку телефона на ровне с высотой логотипа */
+    top: -10px;
+    /* margin-left: 50px; */
+        /* колхозное решение, чтоб телефон был псевдо-relative */
+        width: 376px;
+        /* при уменьшении масштаба без этого свойства телефон почти не видно */
+        height: 400px;
+}
+
+.happy-phone__img {
+    position: absolute;
+    /* смещение изображения, чтобы оно попало под рамку телефона */
+    top: 25px;
+    left: 25px;
+}
+.happy-phone__border {
+    position: absolute;
 }
 
 

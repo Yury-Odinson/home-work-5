@@ -27,13 +27,13 @@
     transition: border, color, 0.2s;
 }
 
-.section-1-content-phone:hover,
+.happy-phone:hover,
 .section-4-content-phone:hover,
 .section-5-content-phone:hover {
     transform: translateY(-20px);
 }
 
-.section-1-content-phone,
+.happy-phone,
 .section-4-content-phone,
 .section-5-content-phone,
 .section-2-content-item-footer {
