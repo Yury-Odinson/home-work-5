@@ -36,16 +36,16 @@
 .happy-phone,
 .section-4-content-phone,
 .section-5-content-phone,
-.section-2-content-item-footer {
+.features-item-footer {
     transition: 0.2s;
 }
 
-.section-2-content-item:hover .section-2-content-item-img__logo {
+.features-item:hover .features-footer__logo {
     border-radius: 50%;
     transition: 0.2s;
 }
 
-.section-2-content-item-img__logo {
+.features-footer__logo {
     transition: 0.2s;
 }
 
