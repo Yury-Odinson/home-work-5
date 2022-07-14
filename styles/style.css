@@ -42,7 +42,6 @@
 
 
 
-
 /* секция 1 на белом фоне */
 #happy {
     display: flex;
@@ -136,7 +135,6 @@
 .features__posttitle {
     font-size: 3rem;
 }
-
 
 .features-content {
     display: flex;
@@ -261,7 +259,7 @@
 #technology {
     position: relative;
     margin: 0 auto;
-    padding: 200px 0;
+    padding: 200px 0 100px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -279,7 +277,6 @@
     position: relative;
     max-width: 400px;
 }
-
 
 .technology__title {
     padding: 10px 0;
@@ -312,7 +309,7 @@
 #speed {
     position: relative;
     margin: 0 auto;
-    padding: 200px 0;
+    padding: 200px 0 100px;
     display: flex;
     justify-content: center;
     width: 100% ;
@@ -326,10 +323,9 @@
     justify-content: space-between;
 }
 
-
 .speed-phone {
-    width: 321px;
     position: relative;
+    width: 321px;
 }
 
 .speed-phone__img {
@@ -340,7 +336,6 @@
 
 .speed-phone__border {
     position: absolute;
-
 }
 
 .speed-txt {
@@ -675,7 +670,6 @@
     width: 100%;
 }
 
-
 .faq-header {
     padding: 20px;
 
@@ -700,6 +694,7 @@
 .faq-item__title {
     padding-bottom: 10px;
 }
+
 
 
 /* подвал сайта */
